@@ -1,0 +1,34 @@
+[
+  {
+    "key": "Firefox",
+    "path": "/Applications/Firefox.app",
+    "command": "open -na \"Firefox\" --args -private-window",
+    "icon": {
+      "path": "/Applications/Firefox.app/Contents/Resources/firefox.icns"
+    }
+  },
+  {
+    "key": "Brave",
+    "path": "/Applications/Brave Browser.app",
+    "command": "open -na \"Brave Browser\" --args -incognito",
+    "icon": {
+      "path": "/Applications/Brave Browser.app/Contents/Resources/app.icns"
+    }
+  },
+  {
+    "key": "Safari",
+    "path": "/Applications/Safari.app",
+    "command": "chmod +x launch.applescript && ./launch.applescript",
+    "icon": {
+      "path": "/Applications/Safari.app/Contents/Resources/AppIcon.icns"
+    }
+  },
+  {
+    "key": "Chrome",
+    "path": "/Applications/Google Chrome.app",
+    "command": "open -na \"Google Chrome\" --args -incognito",
+    "icon": {
+      "path": "/Applications/Google Chrome.app/Contents/Resources/app.icns"
+    }
+  }
+]
