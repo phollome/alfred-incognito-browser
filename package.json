@@ -15,5 +15,9 @@
   "scripts": {
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phollome/alfred-incognito-browser.git"
   }
 }
