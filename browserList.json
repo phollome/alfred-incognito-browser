@@ -30,5 +30,13 @@
     "icon": {
       "path": "/Applications/Google Chrome.app/Contents/Resources/app.icns"
     }
+  },
+  {
+    "key": "Opera",
+    "path": "/Applications/Opera.app",
+    "command": "open -na \"Opera\" --args -private",
+    "icon": {
+      "path": "/Applications/Opera.app/Contents/Resources/app.icns"
+    }
   }
 ]
