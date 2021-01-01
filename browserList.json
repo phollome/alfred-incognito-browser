@@ -8,6 +8,14 @@
     }
   },
   {
+    "key": "Firefox Developer Edition",
+    "path": "/Applications/Firefox Developer Edition.app",
+    "command": "open -na \"Firefox Developer Edition\" --args -private-window",
+    "icon": {
+      "path": "/Applications/Firefox Developer Edition.app/Contents/Resources/firefox.icns"
+    }
+  },
+  {
     "key": "Brave",
     "path": "/Applications/Brave Browser.app",
     "command": "open -na \"Brave Browser\" --args -incognito",

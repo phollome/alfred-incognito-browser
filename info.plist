@@ -169,6 +169,55 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
+				<string>firefox developer incognito</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "Firefox Developer Edition"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Open Firefox Developer Edition in incognito mode</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>45B5406D-CD13-426D-8187-B16763802D58</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
 				<string>firefox incognito</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
@@ -430,6 +479,13 @@
 			<integer>300</integer>
 			<key>ypos</key>
 			<integer>280</integer>
+		</dict>
+		<key>45B5406D-CD13-426D-8187-B16763802D58</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>395</integer>
 		</dict>
 		<key>563808A2-93C5-4BA3-BD7A-5146457ADEDE</key>
 		<dict>

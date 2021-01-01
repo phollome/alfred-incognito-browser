@@ -30,5 +30,6 @@ Type `<browser name>` select new option and press <kbd>Enter</kbd>.
 - Chrome
 - Edge
 - Firefox
+- Firefox Developer Edition
 - Opera
 - Safari
