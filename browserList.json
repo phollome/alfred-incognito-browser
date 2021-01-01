@@ -38,5 +38,13 @@
     "icon": {
       "path": "/Applications/Opera.app/Contents/Resources/app.icns"
     }
+  },
+  {
+    "key": "Edge",
+    "path": "/Applications/Microsoft Edge.app",
+    "command": "open -na \"Microsoft Edge\" --args -inprivate",
+    "icon": {
+      "path": "/Applications/Microsoft Edge.app/Contents/Resources/app.icns"
+    }
   }
 ]

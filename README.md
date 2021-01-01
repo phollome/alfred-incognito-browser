@@ -28,6 +28,7 @@ Type `<browser name>` select new option and press <kbd>Enter</kbd>.
 
 - Brave
 - Chrome
+- Edge
 - Firefox
 - Opera
 - Safari
