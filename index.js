@@ -3,6 +3,7 @@ const fs = require("fs");
 const alfy = require("alfy");
 
 const browserList = require("./browserList.json");
+const checkAvailability = require("./src/checkAvailability");
 
 async function main() {
   if (alfy.input) {
@@ -19,25 +20,6 @@ async function main() {
       .sort((a, b) => a.key.localeCompare(b.key));
     alfy.output(filteredList);
   }
-}
-
-function checkAvailability(props) {
-  const { key, path, command } = props;
-  return new Promise((resolve) => {
-    fs.access(path, fs.constants.R_OK, (err) => {
-      let isAvailable = true;
-      if (err) {
-        isAvailable = false;
-      }
-      resolve({
-        title: key,
-        subtitle: path,
-        arg: command,
-        isAvailable,
-        ...props,
-      });
-    });
-  });
 }
 
 main();
