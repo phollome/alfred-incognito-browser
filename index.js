@@ -1,5 +1,4 @@
 const exec = require("child_process").exec;
-const fs = require("fs");
 const alfy = require("alfy");
 
 const browserList = require("./browserList.json");
@@ -7,10 +6,15 @@ const checkAvailability = require("./src/checkAvailability");
 
 async function main() {
   if (alfy.input) {
-    const { command } = browserList.find(
+    const { key, path, command } = browserList.find(
       (item) => item.key === alfy.input || item.command === alfy.input
     );
-    exec(command);
+    const { isAvailable } = await checkAvailability({ path });
+    if (isAvailable) {
+      exec(command);
+    } else {
+      alfy.output([{ title: `${key} not available` }]);
+    }
   } else {
     const checkedList = await Promise.all(
       browserList.map((item) => checkAvailability(item))
