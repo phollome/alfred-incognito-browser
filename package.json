@@ -1,7 +1,7 @@
 {
   "name": "alfred-incognito-browser",
   "description": "Open your favorite browser in incognito mode",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "author": {
     "name": "Peter Holló",
     "email": "lordpejdar@gmail.com",
