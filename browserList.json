@@ -1,58 +1,44 @@
 [
   {
     "key": "Firefox",
-    "path": "/Applications/Firefox.app",
+    "path": "Firefox.app",
     "command": "open -na \"Firefox\" --args -private-window",
-    "icon": {
-      "path": "/Applications/Firefox.app/Contents/Resources/firefox.icns"
-    }
+    "iconPath": "Contents/Resources/firefox.icns"
   },
   {
     "key": "Firefox Developer Edition",
-    "path": "/Applications/Firefox Developer Edition.app",
+    "path": "Firefox Developer Edition.app",
     "command": "open -na \"Firefox Developer Edition\" --args -private-window",
-    "icon": {
-      "path": "/Applications/Firefox Developer Edition.app/Contents/Resources/firefox.icns"
-    }
+    "iconPath": "Contents/Resources/firefox.icns"
   },
   {
     "key": "Brave",
-    "path": "/Applications/Brave Browser.app",
+    "path": "Brave Browser.app",
     "command": "open -na \"Brave Browser\" --args -incognito",
-    "icon": {
-      "path": "/Applications/Brave Browser.app/Contents/Resources/app.icns"
-    }
+    "iconPath": "Contents/Resources/app.icns"
   },
   {
     "key": "Safari",
-    "path": "/Applications/Safari.app",
+    "path": "Safari.app",
     "command": "chmod +x launch.applescript && ./launch.applescript",
-    "icon": {
-      "path": "/Applications/Safari.app/Contents/Resources/AppIcon.icns"
-    }
+    "iconPath": "Contents/Resources/AppIcon.icns"
   },
   {
     "key": "Chrome",
-    "path": "/Applications/Google Chrome.app",
+    "path": "Google Chrome.app",
     "command": "open -na \"Google Chrome\" --args -incognito",
-    "icon": {
-      "path": "/Applications/Google Chrome.app/Contents/Resources/app.icns"
-    }
+    "iconPath": "Contents/Resources/app.icns"
   },
   {
     "key": "Opera",
-    "path": "/Applications/Opera.app",
+    "path": "Opera.app",
     "command": "open -na \"Opera\" --args -private",
-    "icon": {
-      "path": "/Applications/Opera.app/Contents/Resources/app.icns"
-    }
+    "iconPath": "Contents/Resources/app.icns"
   },
   {
     "key": "Edge",
-    "path": "/Applications/Microsoft Edge.app",
+    "path": "Microsoft Edge.app",
     "command": "open -na \"Microsoft Edge\" --args -inprivate",
-    "icon": {
-      "path": "/Applications/Microsoft Edge.app/Contents/Resources/app.icns"
-    }
+    "iconPath": "Contents/Resources/app.icns"
   }
 ]

@@ -1,28 +1,36 @@
-const exec = require("child_process").exec;
+const { exec } = require("child_process");
+
 const alfy = require("alfy");
 
 const browserList = require("./browserList.json");
-const checkAvailability = require("./src/checkAvailability");
+const { checkAvailability, enhanceBrowserList } = require("./utils");
+
+const APPLICATIONS_PATH = "/Applications";
 
 async function main() {
   if (alfy.input) {
     const { key, path, command } = browserList.find(
       (item) => item.key === alfy.input || item.command === alfy.input
     );
-    const { isAvailable } = await checkAvailability({ path });
+    const { isAvailable } = await checkAvailability({
+      path: `${APPLICATIONS_PATH}/${path}`,
+    });
     if (isAvailable) {
       exec(command);
     } else {
-      alfy.output([{ title: `${key} not available` }]);
+      alfy.output([
+        { title: `${key} not available`, icon: { path: alfy.icon.error } },
+      ]);
     }
   } else {
-    const checkedList = await Promise.all(
-      browserList.map((item) => checkAvailability(item))
+    const enhancedList = enhanceBrowserList(browserList, APPLICATIONS_PATH);
+    const checkedList = await Promise.all(enhancedList.map(checkAvailability));
+
+    alfy.output(
+      checkedList
+        .filter((item) => item.isAvailable)
+        .sort((a, b) => a.key.localeCompare(b.key))
     );
-    const filteredList = checkedList
-      .filter((item) => item.isAvailable)
-      .sort((a, b) => a.key.localeCompare(b.key));
-    alfy.output(filteredList);
   }
 }
 
