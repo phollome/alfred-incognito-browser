@@ -30,6 +30,12 @@
     "iconPath": "Contents/Resources/app.icns"
   },
   {
+    "key": "Chrome Dev",
+    "path": "Google Chrome Dev.app",
+    "command": "open -na \"Google Chrome Dev\" --args -incognito",
+    "iconPath": "Contents/Resources/app.icns"
+  },
+  {
     "key": "Opera",
     "path": "Opera.app",
     "command": "open -na \"Opera\" --args -private",

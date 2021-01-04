@@ -24,10 +24,11 @@ Type `<browser name>` select new option and press <kbd>Enter</kbd>.
 
 ![New option to open browser in incognito/private mode](screenshot-brave.png)
 
-## Available Browser
+## Available Browsers
 
 - Brave
 - Chrome
+- Chrome Dev
 - Edge
 - Firefox
 - Firefox Developer Edition
