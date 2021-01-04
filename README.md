@@ -24,6 +24,10 @@ Type `<browser name>` select new option and press <kbd>Enter</kbd>.
 
 ![New option to open browser in incognito/private mode](screenshot-brave.png)
 
+## Contribution
+
+Do you miss your favorite browser? Just create an issue or add it to the `browserList.json` and create a pull request.
+
 ## Available Browsers
 
 - Brave
