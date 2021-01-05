@@ -2,3 +2,4 @@
 .*ignore
 *.spec.js
 coverage
+.github
