@@ -1,5 +1,8 @@
 # alfred-incognito-browser
 
+![npm](https://img.shields.io/npm/v/alfred-incognito-browser)
+![npm](https://badgen.net/npm/dw/alfred-incognito-browser)
+
 > [Alfred 3](https://www.alfredapp.com) workflow to open chosen browser in incognito/private mode
 
 ## Install
