@@ -2,6 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/alfred-incognito-browser)
 ![npm](https://badgen.net/npm/dw/alfred-incognito-browser)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/phollome/alfred-incognito-browser/main.svg?style=flat-square)](https://codecov.io/gh/phollome/alfred-incognito-browser/)
 
 > [Alfred 3](https://www.alfredapp.com) workflow to open chosen browser in incognito/private mode
 
