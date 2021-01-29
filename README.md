@@ -1,5 +1,6 @@
 # alfred-incognito-browser
 
+![Release Status](https://github.com/phollome/alfred-incognito-browser/workflows/publish%20package/badge.svg)
 ![npm](https://img.shields.io/npm/v/alfred-incognito-browser)
 ![npm](https://badgen.net/npm/dw/alfred-incognito-browser)
 [![Codecov Coverage](https://img.shields.io/codecov/c/github/phollome/alfred-incognito-browser/main.svg?style=flat-square)](https://codecov.io/gh/phollome/alfred-incognito-browser/)
